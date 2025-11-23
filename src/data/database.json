@@ -1,0 +1,107 @@
+{
+  "component_prices": {
+    "cameras": {
+      "indoor": {
+        "hilook": 450000,
+        "dahua": 500000
+      },
+      "outdoor": {
+        "hilook": 550000,
+        "dahua": 600000
+      }
+    },
+    "accessories": 75000,
+    "hdd": {
+      "500gb": 650000,
+      "1tb": 850000,
+      "2tb": 1200000,
+      "4tb": 1800000
+    },
+    "cable_per_meter": 15000,
+    "duradus": 25000,
+    "power_supply_per_4_cameras": 150000,
+    "installation_fee_per_camera": 100000,
+    "dvr": {
+      "4_port": 800000,
+      "8_port": 1200000,
+      "16_port": 1800000,
+      "32_port": 2500000
+    }
+  },
+  "cctv_brands": [
+    {
+      "name": "Hilook",
+      "description": "Reliable and cost-effective security solutions"
+    },
+    {
+      "name": "Dahua",
+      "description": "Premium quality with advanced features"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Basic Package",
+      "description": "Perfect for small homes",
+      "cameras": 2,
+      "type": "indoor",
+      "brand": "hilook",
+      "hdd": "500gb",
+      "cable": 20,
+      "base_price": 2500000
+    },
+    {
+      "name": "Home Package",
+      "description": "Complete home security solution",
+      "cameras": 4,
+      "type": "mixed",
+      "brand": "hilook",
+      "hdd": "1tb",
+      "cable": 40,
+      "base_price": 4500000
+    },
+    {
+      "name": "Office Package",
+      "description": "Professional office security",
+      "cameras": 8,
+      "type": "mixed",
+      "brand": "dahua",
+      "hdd": "2tb",
+      "cable": 80,
+      "base_price": 8500000
+    }
+  ],
+  "voucher_codes": {
+    "PROMO2024": {
+      "discount_percent": 10,
+      "whatsapp_number": "+6281234567890",
+      "valid": true
+    },
+    "NEWCUST": {
+      "discount_percent": 15,
+      "whatsapp_number": "+6281234567891",
+      "valid": true
+    },
+    "OFFICE20": {
+      "discount_percent": 20,
+      "whatsapp_number": "+6281234567892",
+      "valid": true
+    }
+  },
+  "event_discount": {
+    "active": true,
+    "discount_percent": 5,
+    "description": "Special Launch Discount"
+  },
+  "default_whatsapp_number": "+6281234567893",
+  "company_info": {
+    "name": "LihatTech Support",
+    "address": "Jl. Teknologi No. 123, Jakarta Selatan",
+    "phone": "+62 21 1234 5678",
+    "email": "info@lihattech.com",
+    "social_media": {
+      "instagram": "@lihattech_support",
+      "facebook": "LihatTech Support",
+      "whatsapp": "+6281234567893"
+    }
+  }
+}
